@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class controller {
     @GetMapping("is")
-    public void get(){
-        throw new RuntimeException();
+    public String  get(){
+        return "hello";
     }
 }
